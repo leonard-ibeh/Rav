@@ -1,0 +1,61 @@
+@import "./bootstrap-extend.scss";
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/mulish/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish-Light";
+  src: url("../fonts/mulish/Mulish-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish-Bold";
+  src: url("../fonts/mulish/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish-SemiBold";
+  src: url("../fonts/mulish/Mulish-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish-Medium";
+  src: url("../fonts/mulish/Mulish-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish-ExtraBold";
+  src: url("../fonts/mulish/Mulish-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish-Black";
+  src: url("../fonts/mulish/Mulish-Black.ttf") format("truetype");
+}
+
+html {
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.py-3_5 {
+  padding-top: 1.3rem !important;
+  padding-bottom: 1.3rem !important;
+}
